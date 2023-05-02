@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7d5f123270.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Uttarakhandi Music Player</title>
+</head>
+<body>
+
+    <div class="main_div">
+
+        <div class="music_container">
+            <h2 id="title">Preet ku Rog </h2>
+            <h3 id="artist">Ashish Chamoli || Akansha Nautiyal</h3>
+
+            <div class="img_container">
+                <img src="images/uk_1.jpg" alt="Preet ku Rog">
+            </div>
+            <audio src="music/uk_1.mp3" ></audio>
+            <!-- progress bar -->
+
+            <div class="progressbar_container" id="progress_container">
+
+                <div class="progress_duration_meter">
+                    <div id="current_time">0:00</div>
+                    <div id="duration">4:11</div>
+                </div>
+                <div class="progress_div" id="progress_div">
+                    <div class="progress" id="progress"></div>
+                </div>
+            </div>
+
+            <!-- controls   -->
+ 
+             <div class="music_controls">
+
+                <i class="fa-sharp fa-solid fa-hand-point-left" id="prev" title="Previous"></i>
+                <i class="fa-sharp fa-solid fa-play main_button" id="play" title="Play"></i>
+                <i class="fa-sharp fa-solid fa-hand-point-right" id="fwd" title="Forward"></i>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html> 
